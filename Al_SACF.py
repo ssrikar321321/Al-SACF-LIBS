@@ -222,7 +222,5 @@ st.download_button("Download corrected results (CSV)", csv_bytes, file_name="al_
 st.markdown("""
 **Notes & caveats**
 - SACF modifies intensities (I) not wavelengths; therefore matched wavelengths remain the same.
-- I used your raw-Boltzmann Te as the etemp for SACF (as in your original script). You can change this behavior by editing `etemp_for_sacf`.
 - g values were inferred from the J values in your pasted data (use exact g if available).
-- If you want propagation of experimental uncertainty or an interactive slider to force `etemp` manually, tell me and I can add it.
 """)
