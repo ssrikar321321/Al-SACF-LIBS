@@ -11,7 +11,6 @@ Created on Fri Sep  5 13:55:57 2025
 """
 Aluminium Spectral Boltzmann + Self-Absorption Correction (SACF)
 Focused tool: only Boltzmann plot (raw) and SACF-corrected Boltzmann plot.
-Updated 2025-09-05 by ChatGPT.
 """
 import streamlit as st
 import pandas as pd
